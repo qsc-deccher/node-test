@@ -7,20 +7,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/qsc-jhndnn/node-test.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/qsc-jhndnn/node-test/issues"
-  },
-  "homepage": "https://github.com/qsc-jhndnn/node-test#readme",
   "dependencies": {
-    "@q-sys/qrwc": "^0.4.1-beta",
-    "got": "^11.8.6",
+    "@q-sys/qrwc": "0.4.1-beta",
+    "dotenv": "^16.5.0",
     "uuid": "^11.1.0",
     "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.8.3"
   }
 }
