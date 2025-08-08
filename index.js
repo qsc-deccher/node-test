@@ -1,6 +1,6 @@
-const { Qrwc } = require('@q-sys/qrwc');
-const WebSocket = require('ws');
-require('dotenv/config');
+import { Qrwc } from '@q-sys/qrwc';
+import WebSocket from "ws";
+import 'dotenv/config';
 
 const setupConnection = async () => {
   // const coreIP = process.env.CORE_IP_ADDRESS ?? ''
